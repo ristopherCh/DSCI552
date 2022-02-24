@@ -1,5 +1,4 @@
-# DSCI552
-HW1: Classification
+# DSCI 552 HW1: Classification
 The dataset in question describes six biomechanical attributes describing the shape and orientation of the pelvis and lumbar spine of a number of individuals. Each individual is also labeled as having a “normal” bill of health, or an “abnormal” classification, which means either a disk hernia, spondylolisthesis, or any other mechanical abnormality.
 
 The dataset was initially checked by viewing a scatterplot of all independent variables and a boxplot of the range of each variable using the Seaborn package.
@@ -12,4 +11,4 @@ Using the most effective value for the K neighbors parameter (k = 4) I create a 
 
 I then change the way the K nearest neighbors algorithm calculates the nearest neighbor by changing the calculation from Euclidean metric to Minkowski, Manhattan, Chebyshev, Mahalanobis, and others.
 
-I also attempt KNN using a weighted decision instead of majority polling, where the distance from the point in question is considered. 
+I also attempt KNN using a weighted decision instead of majority polling, where the distance from the point in question is considered.
