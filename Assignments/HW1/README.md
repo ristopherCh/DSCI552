@@ -12,4 +12,4 @@ Using the most effective value for the K neighbors parameter (k = 4) I create a 
 
 I then change the way the K nearest neighbors algorithm calculates the nearest neighbor by changing the calculation from Euclidean metric to Minkowski, Manhattan, Chebyshev, Mahalanobis, and others.
 
-I also attempt KNN using a weighted decision instead of majority polling, where the distance from the point in question is considered.
+I also attempt KNN using a weighted decision instead of majority polling, where the distance from the point in question is considered. 
